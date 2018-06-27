@@ -1,0 +1,293 @@
+@font-face {
+  font-family: Phuture;
+  src: url("assets/fonts/PhutureODC-Ultra.ttf")
+}
+
+.title-header {
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(170, 170, 170, .3);
+  /* background-image: linear-gradient(-180deg, #45345A 0%, #1A2334 100%) */
+  height: 75px;
+  padding: 25px;
+}
+
+.title {
+  color: white;
+  font-size: 24px;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 5px;
+  padding: 5px;
+}
+
+.headliner-container {
+  box-sizing: border-box;
+  height: 325px;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+}
+
+.headliner {
+  color: white;
+  font-size: 34px;
+  font-family: "Akkurat",
+  "Helvetica Neue",
+  sans-serif;
+  font-weight: 350;
+  width: 300px;
+  line-height: 1.5em;
+  margin-right: 35px;
+}
+
+.title-container {
+  /* background-image: linear-gradient(-180deg, #45345A 0%, #1A2334 100%); */
+  background-color: transparent;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+}
+
+.portfolio-container {
+  display: flex;
+  margin-right: 30px;
+  width: 300px;
+}
+
+.portfolio {
+  width: 50px;
+  height: 50px;
+}
+
+.platform-text {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Akkurat",
+  "Helvetica Neue",
+  sans-serif;
+  font-weight: 200;
+  
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.text {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-text {
+  color: #ddd;
+  font-size: 14px;
+  font-family: "Akkurat",
+  "Helvetica Neue",
+  sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+canvas {
+  position: relative;
+  display: block;
+}
+
+.appstore-container {
+
+  background-color: #39314B;
+  height: 400px;
+  background-image: url("../assets/images/origin-background.svg");
+  background-size: 1104px 506px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.appstore-container {
+  padding: 80px 40px 80px 40px;
+  height: 400px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.small-header {
+  color: #ddd;
+  /* text-transform: uppercase; */
+  font-family: 'Inconsolata',
+  monospace;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.appstore-info {
+  margin-top: 35px;
+  border-left: 3px solid #ff92e0;
+  padding-left: 45px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.live {
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-family: "Akkurat",
+  "Helvetica Neue",
+  sans-serif;
+}
+
+.description {
+  margin-top: 10px;
+  color: #ddd;
+  font-weight: 300;
+  font-family: "Akkurat",
+  "Helvetica Neue",
+  sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.github-learn {
+  margin-top: 30px;
+  color: #1D2437;
+  background: #ff92e0;
+  padding: 20px 50px 20px 50px;
+  font-family: "Akkurat",
+  "Helvetica Neue",
+  sans-serif;
+  width: 170px;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.github-learn:hover {
+  background: #ff79d9;
+}
+
+.simulator-container {
+  background: #1D2437;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  height: 600px;
+  display: flex;
+  padding: 45px;
+  /* justify-content: space-around; */
+}
+
+.simulator-header { 
+  font-size: 18px;
+  color: #ddd;
+  font-family: 'Inconsolata',
+  monospace;
+  font-weight: 100;
+  letter-spacing: 2px;
+  
+}
+
+.simulator-info {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.app-store {
+   font-size: 55px;
+   background: -webkit-linear-gradient(rgb(90, 200, 250), rgb(0,122,255));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-right: 25px;
+}
+
+.coming-soon-container {
+  padding: 25px;
+  margin-top: 25px;
+  border: 1px solid rgba(238, 238, 238, 0.1);
+  color: #eee
+  width: 200px;
+}
+
+.app-header {
+   color: white;
+   font-size: 34px;
+   font-family: 'Orbitron',
+   sans-serif;
+   letter-spacing: 5px;
+   padding: 5px;
+}
+
+.coming-soon {
+  margin-top: 10px;
+  color: #ddd;
+  font-weight: 300;
+  font-family: "Akkurat",
+  "Helvetica Neue",
+  sans-serif;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+.appstore-svg {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.simulator-box {
+  width: 400px;
+  height: 550px;
+  border: 1px solid rgba(238, 238, 238, 0.1);
+  margin-left: 100px;
+}
+
+.collabs-container {
+  height: 400px;
+  background-image: linear-gradient(-180deg, #2B2845 0%, #23263E 100%);
+  padding: 40px 80px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.collabs-title {
+  margin-top: 10px;
+  color: #ccc;
+  font-weight: 300;
+  font-family: "Akkurat",
+  "Helvetica Neue",
+  sans-serif;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  margin-left: -20px;
+}
+
+.collab-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: -20px;
+}
+
+.github {
+  color: white;
+  font-size: 30px;
+}
+
+.linkedin {
+  color: white;
+  font-size: 30px;
+  margin-left: 25px;
+}
+
+.github:hover {
+  color: rgb(184, 184, 184);
+}
+
+.linkedin:hover {
+  color: rgb(184, 184, 184);
+}
