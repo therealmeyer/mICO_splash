@@ -195,7 +195,7 @@ canvas {
    background: -webkit-linear-gradient(rgb(90, 200, 250), rgb(0,122,255));
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-   margin-right: 25px;
+   margin-right: 30px;
 }
 
 .coming-soon-container {
@@ -213,6 +213,21 @@ canvas {
    sans-serif;
    letter-spacing: 5px;
    padding: 5px;
+   display: flex;
+   align-items: baseline;
+   justify-content: flex-start;
+   position: relative;
+}
+
+.app-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  /* margin-left: 25px; */
+  margin-top: 10px;
+  position: absolute;
+  left: 240px;
+  bottom: 9px;
 }
 
 .coming-soon {
@@ -232,8 +247,7 @@ canvas {
 }
 
 .simulator-box {
-  width: 400px;
-  height: 550px;
+  padding: 20px;
   border: 1px solid rgba(238, 238, 238, 0.1);
   margin-left: 100px;
 }
@@ -249,6 +263,7 @@ canvas {
 
 .collabs-title {
   margin-top: 10px;
+  margin-right: -15px;
   color: #ccc;
   font-weight: 300;
   font-family: "Akkurat",
@@ -263,6 +278,7 @@ canvas {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* justify-content: center; */
 }
 
 .links {
@@ -290,4 +306,41 @@ canvas {
 
 .linkedin:hover {
   color: rgb(184, 184, 184);
+}
+
+.splash-test {
+  height: 1000px;
+  background-image: linear-gradient(-180deg, #45345A 0%, #1A2334 100%);
+  background-image: url("../assets/images/origin-background.svg"), linear-gradient(-180deg, #45345A 0%, #1A2334 100%);
+  background-size: 2000px 900px;
+  background-position: 75% 30%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.splash-text {
+  font-family: 'Orbitron',
+  sans-serif;
+  color: white;
+  font-size: 55px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-left: -5px;
+  box-sizing: border-box;
+  border: 5px solid #1D2437;
+  transition: transform .2s;
+  /* box-shadow: 0 3px 2px rgba(0,0,0, 0.5); */
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
 }
