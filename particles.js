@@ -33,8 +33,10 @@ var colorArray = [
 ];
 window.addEventListener('mousemove',
   function (event) {
+    if (event.y < canvas.height && event.y > 0) {
     mouse.x = event.x;
     mouse.y = event.y;
+    }
   }
 );
 
