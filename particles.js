@@ -4,7 +4,13 @@ canvas.height = 450;
 canvas.width = window.innerWidth;
 var c = canvas.getContext('2d');
 
-
+window.addEventListener('resize', 
+  function() {
+    canvas.height = 450;
+    canvas.width = window.innerWidth;
+    init();
+  }
+);
 
 var effectDistance = 150;
 var connectionDistance = 160;
