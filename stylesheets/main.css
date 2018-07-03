@@ -187,7 +187,7 @@ canvas {
 .simulator-info {
   display: flex;
   flex-direction: column;
-  
+  width: 400px;
 }
 
 .app-store {
@@ -343,4 +343,23 @@ canvas {
 
 .profile-image:hover {
   transform: scale(1.1);
+}
+
+
+.background-info {
+  margin-top: 10px;
+  color: #ddd;
+  font-weight: 300;
+  font-family: "Akkurat", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+
+.background-header {
+  font-size: 18px;
+  color: #aaa;
+  font-family: 'Inconsolata',
+  monospace;
+  font-weight: 100;
+  letter-spacing: 2px;
 }
