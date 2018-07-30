@@ -17,6 +17,7 @@
   font-family: 'Orbitron', sans-serif;
   letter-spacing: 5px;
   padding: 5px;
+  padding-left: 50px;
 }
 
 .headliner-container {
@@ -25,7 +26,7 @@
   display: flex;
   padding: 30px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .headliner {
@@ -37,7 +38,7 @@
   font-weight: 350;
   width: 300px;
   line-height: 1.5em;
-  margin-right: 35px;
+  margin-right: 25px;
 }
 
 .title-container {
@@ -104,7 +105,7 @@ canvas {
 }
 
 .appstore-container {
-  padding: 80px 40px 80px 40px;
+  padding: 80px 40px 80px 87px;
   height: 400px;
   box-sizing: border-box;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
@@ -172,6 +173,7 @@ canvas {
   height: 680px;
   display: flex;
   padding: 45px;
+  padding-left: 80px;
   /* justify-content: space-around; */
 }
 
